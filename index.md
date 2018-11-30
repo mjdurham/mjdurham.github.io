@@ -4,8 +4,8 @@ layout: default
 
 ## Technical Skills
 
-- Node.js, Go, Java, C, Python, Bash, HTML 5, CSS, Linux
-- Babel, npm, git, Bootstrap, Spring
+- Node.js, Go, Java, C, Python, Bash, HTML5, CSS, Linux
+- Babel, npm, git, Bootstrap, Spring, Arduino
 - Kubernetes, Docker, Travis CI, Slack, GitHub, PagerDuty, OAuth2
 - IBM Cloud, AWS, Heroku
 - CI/CD, code reviews, TDD, agile, postmortems
