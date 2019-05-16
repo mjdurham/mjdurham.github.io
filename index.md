@@ -12,9 +12,14 @@ layout: default
 
 ## Work Experience
 
-#### Software Engineer - Toolbox@IBM (Summer 2017 - Current)
+#### Backend Software Engineer - IBM Cloud Private 	(2019 - Current)
+- Backend work for Multicloud Manager, which integrates Kubernetes clusters from multiple vendors into one management dashboard
+- Added RedisGraph to cache workload data and cluster relationships allowing administrators to query information across their entire infrastructure
+- Hub cluster can handle the scale of over one hundred remote clusters
 
-- Currently working on Incident Manager bot that integrates PagerDuty and Slack together to help create a coordinated incident response for IBM teams
+#### Software Engineer - Toolbox@IBM (Summer 2017 - 2018)
+
+- Architected a high availability bot that integrates PagerDuty and Slack together to help create a coordinated incident response for IBM teams
 - Built out integrations that connect DevOps software offered by the CIO office
 - Full stack Node shop, experience in code reviews and continuous delivery
 - Switched application images to run in Docker on Kubernetes platform to achieve higher scalability
