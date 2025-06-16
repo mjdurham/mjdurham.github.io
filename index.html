@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitch Durham - Senior Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+</head>
+<body>
+    <!-- Floating Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <!-- Profile Section -->
+            <div class="profile-section">
+                <div class="profile-image-container">
+                    <img src="assets/mitchell-durham.png" alt="Mitch Durham" class="profile-image" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxNTAiIGhlaWdodD0iMTUwIiBmaWxsPSIjMzMzNzNEIi8+CjxjaXJjbGUgY3g9Ijc1IiBjeT0iNjAiIHI9IjI1IiBmaWxsPSIjNkI3Mjg0Ii8+CjxwYXRoIGQ9Ik0zMCAxMjBDMzAgMTA0IDUwIDkwIDc1IDkwUzEyMCAxMDQgMTIwIDEyMFYxNTBIMzBWMTIwWiIgZmlsbD0iIzZCNzI4NCIvPgo8L3N2Zz4K'">
+                </div>
+                <h1 class="name">Mitch Durham</h1>
+                <p class="title">Senior Software Engineer</p>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-section">
+                <h3 class="section-title">Contact</h3>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/mjdurham" target="_blank">GitHub</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/mjdurham/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="education-section">
+                <h3 class="section-title">Education</h3>
+                <div class="education-item">
+                    <h4>North Carolina State University</h4>
+                    <p class="degree">B.S. in Computer Science</p>
+                    <p class="graduation">May 2017</p>
+                    <p class="location">Raleigh, NC</p>
+                </div>
+            </div>
+
+            <!-- Download Resume -->
+            <div class="download-section">
+                <a href="assets/resume.pdf" download="Mitch_Durham_Resume.pdf" class="download-btn">
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- About Me Section -->
+        <section class="about-section">
+            <h2 class="section-heading"><span class="code-bracket">&lt;</span>About Me<span class="code-bracket">/&gt;</span></h2>
+            <div class="about-content">
+                <p>I'm a full-stack software engineer with 8 years' experience building large-scale web applications. I have a strong focus on DevOps principles and automating processes. I enjoy working with growing companies to help mature their processes and build quality software.</p>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="experience-section">
+            <h2 class="section-heading"><span class="code-bracket">&lt;</span>Work Experience<span class="code-bracket">/&gt;</span></h2>
+            
+            <!-- Clerkie.io -->
+            <div class="job-card">
+                <div class="job-header">
+                    <div class="company-info">
+                        <div class="company-icon">
+                            <img src="assets/clerkie_logo.jpeg" alt="Clerkie.io logo" width="40" height="40">
+                        </div>
+                        <div class="job-details">
+                            <h3 class="company-name">Clerkie.io</h3>
+                            <p class="job-title">Senior Software Engineer</p>
+                            <p class="job-period">April 2025 – Current</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="job-responsibilities">
+                    <li>Developed high-fidelity software demos for a debt management CRM with Next.js and Figma to attract potential clients and gather feedback for new software features</li>
+                    <li>Stood up automated CI to run testing and linting that reduced regressions by 14% for customers</li>
+                    <li>Migrated logging infrastructure to CloudWatch, improving log retention compliance and simplifying production debugging for developers</li>
+                    <li>Improved incident management process that reduced average resolution time by 2 hours</li>
+                </ul>
+                <div class="tech-stack">
+                    <p><strong>Stack:</strong> TypeScript, MongoDB, Node.js, React, Next.js, Vercel, AWS, Mocha, Figma, Agile, Datadog</p>
+                </div>
+            </div>
+
+            <!-- Anark -->
+            <div class="job-card">
+                <div class="job-header">
+                    <div class="company-info">
+                        <div class="company-icon">
+                            <img src="assets/anark_logo.jpeg" alt="Anark logo" width="40" height="40">
+                        </div>
+                        <div class="job-details">
+                            <h3 class="company-name">Anark</h3>
+                            <p class="job-title">Senior Full Stack Engineer</p>
+                            <p class="job-period">Aug 2021 – Nov 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="job-responsibilities">
+                    <li>Implemented custom WebGL interfaces for displaying manufacturing work instructions containing 3D models for Fortune 500 companies</li>
+                    <li>Built front-end admin dashboard with React, used by customers on hosted SaaS offering</li>
+                    <li>Delivered complex features that spanned multiple teams and facilitated cross communication</li>
+                    <li>Reduced the bug backlog by 21% by increasing test coverage and integrating all tests into the automated testing suite</li>
+                    <li>Led release testing to ensure deliverables met customer requirements and were shipped on time</li>
+                </ul>
+                <div class="tech-stack">
+                    <p><strong>Stack:</strong> MERN Stack (MongoDB, Express, React, Node), Docker, Redis, Azure, React, Vitest</p>
+
+                </div>
+            </div>
+
+            <!-- SparkFun Electronics -->
+            <div class="job-card">
+                <div class="job-header">
+                    <div class="company-info">
+                        <div class="company-icon">
+                            <img src="assets/sparkfun_logo.jpeg" alt="SparkFun Electronics logo" width="40" height="40">
+                        </div>
+                        <div class="job-details">
+                            <h3 class="company-name">SparkFun Electronics</h3>
+                            <p class="job-title">DevOps Engineer</p>
+                            <p class="job-period">Oct 2019 – Jul 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="job-responsibilities">
+                    <li>Converted legacy monolithic e-commerce application to new microservice architecture on AWS that allowed new backend services to scale and run independently with 0 downtime</li>
+                    <li>Setup CI to handle automatic builds, tests, and deployments with Elastic Beanstalk</li>
+                    <li>Wrote integration tests using Cypress for e-commerce and ERP application that processes $2M in monthly revenue</li>
+                </ul>
+                <div class="tech-stack">
+                    <p><strong>Stack:</strong> PHP, JavaScript, Bootstrap, Angular, GraphQL, Apollo, AWS, Terraform, Ansible, Cypress, Agile</p>
+                </div>
+            </div>
+
+            <!-- IBM -->
+            <div class="job-card">
+                <div class="job-header">
+                    <div class="company-info">
+                        <div class="company-icon">
+                            <img src="assets/ibm_logo.jpeg" alt="IBM logo" width="40" height="40">
+                        </div>
+                        <div class="job-details">
+                            <h3 class="company-name">IBM</h3>
+                            <p class="job-title">Software Engineer</p>
+                            <p class="job-period">Jul 2016 – Oct 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="job-responsibilities">
+                    <li>Worked on monitoring platform for Multicloud Manager, a tool that integrates Kubernetes clusters from multiple vendors into one management dashboard</li>
+                    <li>Integrated RedisGraph to cache workload data and cluster relationships, enabling administrators to query information across their entire infrastructure</li>
+                    <li>Performance tested application and fixed bottlenecks that allowed program to manage over 100 remote clusters</li>
+                    <li>Mentored 2 junior developers and promoted best practices including code reviews and continuous delivery</li>
+                    <li>Lead projects with multiple stakeholders across organization that reduced friction and aligned roadmaps</li>
+                </ul>
+                <div class="tech-stack">
+                    <p><strong>Stack:</strong> Golang, Docker, Kubernetes, RedisGraph, IBM Cloud, GitHub, New Relic</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
